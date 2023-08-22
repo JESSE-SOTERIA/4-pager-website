@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+ <html>
+<body>
+    
+<header>
+    <h2 style="font-size:20px;">Joy's Lights</h2>
+<section>
+    <nav>
+        <ul>
+            <li> <a href="home.html"> Home</a></li>
+            <li><a href="about.html"> About </a></li>
+            <li><a href="service.html"> Service </a></li>
+            <li><a href="contact.html"> Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+
+    <div class="container">
+      <div class="item">Classic</div>
+      <div class="item">Hot n' New</div>
+      <div class="item">Shimmering </div>
+      <div class="item">Shining</div>
+      <div class="item">JK</div>
+      </div>
+
+
+        <footer>
+            Light up your world!
+      
+        </footer>
+
+</body>
+
+
+<style>
+
+
+
+
+
+
+    body 
+{
+height: 125vh;
+margin-top: 20px;
+padding:20px;
+background-size: cover;
+font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color: rgb(128, 0, 75);
+    text-align: left;
+    padding: 2px;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+header * {
+display: inline;
+}
+header li {
+margin: 20px;
+}
+header li a {
+color: whitesmoke;
+text-decoration: none;
+font-weight: bold;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+    grid-template-rows: 1fr 1fr 1fr; /* Three equal rows */
+    grid-gap: 10px; /* Gap between grid items */
+    margin-top: 30px;
+  }
+
+  .item {
+    background-color: plum ;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    text-align: center;
+  }
+
+  .item:nth-child(3)
+    {
+    grid-row: span 2; /* Span one column */
+    height: 500px;
+    width: 350px;
+    background-color: hotpink;
+    }
+    
+            
+footer {
+    background-color: rgb(230, 173, 208);
+    padding: 2px;
+
+
+    text-align: center;
+}
+</style>
+
+
+
+
+
+
+
+
+ </html>

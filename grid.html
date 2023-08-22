@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Grid Layout Example</title>
+  <style>
+    .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr; /* Two equal columns */
+      grid-gap: 5px; /* Gap between grid items */
+    }
+
+    .item {
+      background-color: #eaeaea;
+      width: 200px;
+      height: 200px;
+      text-align: center;
+    }
+.rectangle{
+    background-color:bisque;
+    width: 200px;
+    height: 500px;
+    text-align: center;
+
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+    <div class="item">Item 4</div>
+    <div class="rectangle">Item 5</div>
+  </div>
+</body>
+</html>
