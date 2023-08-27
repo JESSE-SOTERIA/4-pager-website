@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    display: flex;
+    justify-content: center;
+    background-image: url("./contact-page-resources/11060310_18966058.jpg");
+    background-size: cover;
+    background-position: center;
+}
+form{
+    margin-top: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #403222;
+}
+input {
+    width: 20vw;
+    height: 5vh;
+    border: none;
+    border-bottom: 1px solid black;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    background-color: rgba(191, 184, 163, 0.3);
+}
+input[type="text"], [type="email"], [type="password"]:focus {
+    height: 40px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none; 
+    font-family: Raleway;
+    color: white;
+    padding: 0.4rem;
+  }
+ 
+label{
+    font-weight: bold;
+    margin: 0.5rem;
+    color: #BFB8A3;
+}
+.container{
+    padding: 1rem;
+}
+h1{
+    display:flex;
+    justify-content: center;
+    color:#BFB8A3 ;
+    
+}
+.formContainer{
+    height: 50vh;
+    width: 30vw;
+    background-color: rgba(191, 184, 163, 0.5); /* R:191, G:184, B:163, Alpha: 1 (fully opaque) */
+    z-index: -1000;
+    position: absolute;
+    top: 150px;
+    border-radius: 7px;
+    box-shadow: 0 0 5px rgba(191, 184, 163, 1);
+}
+.submit{
+    color: black;
+    font-weight: 400;
+    position: absolute;
+    top: 490px;
+    left: 47vw;
+    width: 100px;
+    height: 30px;
+    background-color: #BFB8A3;
+    border: none;
+    border-radius: 3px;
+    font-family: Raleway;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.7);
+}

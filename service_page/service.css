@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Raleway;
+    height: 100vh;    
+    background-color: white;
+}
+#section1{
+    position: relative;
+    height: 45vh;
+    background-image: url("./service-page-resources/luxury-modern-living-room-illuminated-by-lantern-generated-by-ai.jpg");
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+h2{
+    position: absolute;
+    width: 20vw;
+    left: 34vw;
+    top: 18vh;
+}
+span{
+    color: #BFB8A3;
+}
+#headIntro{   position: absolute;
+    width: 20vw;
+    left: 34vw;
+    top: 25vh;
+    margin-top: 0.5rem;
+}
+.link{
+    color: black;
+    font-weight: 400;
+    position: absolute;
+    left: 34vw;
+    top: 39vh;
+    width: 100px;
+    height: 30px;
+    background-color: #BFB8A3;
+    border: none;
+    font-family: Raleway;
+}
+.card{
+    position: relative;
+    height: auto;
+    width: 15vw;
+    background-color: #F2F1DF;
+    padding: 0.5rem;
+}
+#section2{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+ul{
+    margin: 1rem;
+}
+#explore{
+    color: #F2F1DF;
+    width: 100px;
+    height: 30px;
+    background-color: #403222;
+    border: none;
+    font-family: Raleway;
+    margin-left: 3rem;
+}
+.lineCard{
+    position: absolute;
+    bottom: 1px;
+    right: 0;
+    height: 2px;
+    width: 90%;
+    background-color: #403222;
+}
+.service{
+    padding: 0.5rem;
+}
+h5{
+    padding-left: 0.3rem;
+}
+.about{
+    text-decoration: none;
+    color:  #403222;
+}
+.explore{
+    text-decoration: none;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: #BFB8A3;
+    font-weight: 400;
+}
+.home{
+    margin: 5rem;
+    color: black;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    background-color: #403222;
+    border: none;
+    font-family: Raleway;
+}

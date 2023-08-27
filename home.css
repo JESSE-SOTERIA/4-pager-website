@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: antiquewhite;
+font-family: Raleway;
+}
+.container {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr; /* Three equal columns */
+grid-template-rows: 1fr 1fr ; /* Two equal rows */
+grid-gap: 10px; /* Gap between grid items */
+margin: 2rem;
+height: 80vh;
+
+}
+
+.item1{
+padding: 20px;
+font-family: Raleway;
+font-size: larger;
+text-align: center;
+border-radius: 3px;
+color: white;
+background-image: url("./resources/11060311_18966059.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.item2{
+    background-image: url("./resources/antique-ceiling-lamp.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    font-family: Raleway;
+    font-size: larger;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+}
+.item3{
+        background-image: url("./resources/Nordlux\ Fleur\ Desk\ Lamp\,\ Beige.jpg");
+        background-size: cover;
+        background-position: center;
+        padding: 20px;
+        font-family: Raleway;
+        font-size: larger;
+        text-align: center;
+        border-radius: 3px;
+        color: black;
+        grid-row: span 2; 
+}
+.item4{
+            background-image: url("./resources/vintage-crystal-chandelier-filtered-image-processed-vintage-ef.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            font-family: Raleway;
+            font-size: larger;
+            text-align: center;
+            border-radius: 3px;
+            color: white;
+ }
+.item5{
+                background-image:url("./resources/vintage-light-lamp.jpg");
+                background-size: cover;
+    background-position: center;
+                padding: 20px;
+                font-family: Raleway;
+                font-size: larger;
+                text-align: center;
+                border-radius: 3px;
+                color: white;
+                }
+.item:nth-child(3){
+grid-row: span 2; /* Span one column */
+background-color: hotpink;
+}     
+footer {
+background-color: rgb(230, 173, 208);
+padding: 2px;
+text-align: center;
+margin-top: 2rem;
+height: 2rem;
+}
+nav{
+    display:flex;
+    flex-direction: row;
+}
+ul{ 
+    padding-top: 1rem;
+    margin-left: 60vw;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    padding-left: 2rem;
+    list-style: none;
+}
+h2{
+    padding: 0.5rem;
+    margin-left: 1rem;
+}
+a{
+    text-decoration: none;
+    color:  #403222;
+}
+button{
+    margin-left: 90vw;
+    color: white;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    background-color:  #403222;
+    border: none;
+    font-family: Raleway;
+}
