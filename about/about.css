@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Raleway;
+    height: 100vh;
+    background-color: #F2E5D9;
+    position:relative;
+}
+.p1{
+    width: 30vw;
+    padding-left: 6.5rem;
+    font-weight: 200;
+}
+.p2{
+    text-align: center;
+    font-weight: 200;
+}
+.p3{
+    text-align: center;
+    font-weight: 200;
+}
+
+.brilliant{
+    padding-top: 7rem;
+    padding-left: 9rem;
+    padding-bottom: 0rem;
+    color: #403222;
+}
+.adorn{
+    color: #403222;
+    padding-top: 1rem;
+    padding-left: 9rem;
+    padding-bottom: 2.5rem;
+}
+#line{
+    width: 15vw;
+    height: 2px;
+    background-color: #736346;
+    margin-left: 4rem;
+    margin-bottom: 3rem;
+}
+.line3{
+    width: 60%;
+    height: 1px;
+    background-color: azure;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+}
+.elegance{
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    background-image: url("./about-page-resources/71b85afe-2822-470a-a520-f8fc8f0963fb.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    height: 10rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+}
+.card2{
+    background-image: url("./about-page-resources/Clustered\ Tubes\ LED\ Chandelier.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    height: 10rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+}
+.card3{
+    background-image: url("./about-page-resources/60CM\ 80CM\ 100CM\ Modern\ Pendant\ Lights\ For\ Living\ Room\ Dining\ Room\ Circle\ Rings\ Acrylic\ Aluminum\ Body\ LED\ Ceiling\ Lamp\ Fixtures.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    height: 10rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+}
+.card4{
+    background-image: url("./about-page-resources/Clustered\ Tubes\ LED\ Chandelier.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 0.5rem;
+    margin: 1rem;
+    height: 10rem;
+    width: 8rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    color: white;
+    position: relative;
+}
+
+h5{
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    margin-bottom: 6px;
+}
+#lamp{
+    height: 300px;
+    width: 300px;
+}
+.bubble{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    background-color: #736346;
+    z-index: -1000;
+    right: 10vw;
+    top: 5vh;
+    border-radius: 150px;
+    ox-shadow: 0 0 5px rgba(0, 0, 0, 0.4)
+}
+.bubble2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #403222;
+    z-index: -1000;
+    right: 30vw;
+    border-radius: 50px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+.bubble3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: #BFB8A3;
+    z-index: -1000;
+    right: 10vw;
+    border-radius: 50px;
+    ox-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px)
+}
+.services{
+    margin: 1rem;
+    color: black;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    background-color: #403222;
+    border: none;
+    font-family: Raleway;
+}
+.contact{
+    margin-left: 70vw;
+    margin-top: 1rem;
+    color: black;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    background-color: #403222;
+    border: none;
+    font-family: Raleway;
+}
+a{
+    text-decoration: none;
+    color: #BFB8A3;
+    font-weight: 400;
+}
+.home{
+    margin: 1rem;
+    color: black;
+    font-weight: 400;
+    width: 100px;
+    height: 30px;
+    background-color: #403222;
+    border: none;
+    font-family: Raleway;
+}
